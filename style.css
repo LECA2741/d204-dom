@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    color: lightgray;
+}
+
+header{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.menu-hamburguer{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    height: 30px;
+    justify-content: space-evenly;
+    margin:10px;
+    width: 30px;
+}
+
+nav{
+   background-color: black;
+   display: none;
+   /* display: flex;
+   justify-content: space-around; */
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+span{
+    background-color: white;
+    display: block;
+    height: 3px;
+    width: 100%;
+}
+
+.visivel{
+    display: block;
+}
